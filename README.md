@@ -1,5 +1,7 @@
 # Daily Trivia Quiz
 
+[![ruman1609](https://circleci.com/gh/ruman1609/Daily_Trivia_Quiz.svg?style=svg)](https://circleci.com/gh/ruman1609/Daily_Trivia_Quiz)
+
 This is my first simple jetpack compose application, but still using many activity (still under
 development)
 
