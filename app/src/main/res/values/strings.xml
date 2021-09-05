@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Daily Trivia Quiz</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="gotoquiz">Go to Quiz</string>
+    <string name="title_activity_list_quiz">ListQuizActivity</string>
+    <string name="answer_boolean">Answer = %1$s</string>
+</resources>
