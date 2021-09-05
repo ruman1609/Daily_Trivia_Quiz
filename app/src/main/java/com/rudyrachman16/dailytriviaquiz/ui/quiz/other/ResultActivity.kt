@@ -66,6 +66,8 @@ class ResultActivity : AppCompatActivity() {
     override fun onBackPressed() {
         super.onBackPressed()
         viewModel.resetDefault()
+        val save = SaveAnswer(applicationContext)
+        save.putAnswers("")
     }
 }
 

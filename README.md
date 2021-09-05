@@ -17,4 +17,22 @@ Feature I use:
 
 For the API, I got the API from [here](https://opentdb.com/api_config.php)
 
-Thank you for dropping by :)
+## Screenshots
+
+| ![Splash Screens](/snapshots/1.png)            | ![Main Menu](/snapshots/2.png)                 |
+|:----------------------------------------------:|:----------------------------------------------:|
+| Splash Screen                                  | Main Menu (only 1 menu right now)              |
+
+| ![Multiple Quiz](/snapshots/3.png)             | ![Boolean Quiz](/snapshots/4.png)              |
+|:----------------------------------------------:|:----------------------------------------------:|
+| Question (multiple type)                       | Question (boolean type)                        |
+
+| ![List Answer](/snapshots/5.png)               | ![List Answered](/snapshots/6.png)             |
+|:----------------------------------------------:|:----------------------------------------------:|
+| List Question Menu                             | List Question (answered) Menu                  |
+
+| ![Complete Alert](/snapshots/7.png)            | ![Result Menu](/snapshots/8.png)               |
+|:----------------------------------------------:|:----------------------------------------------:|
+| Confirmation to Result Menu                    | This result menu also contain some animation :)|
+
+### Thank you for dropping by :)
