@@ -1,4 +1,4 @@
-package com.rudyrachman16.dailytriviaquiz.ui
+package com.rudyrachman16.dailytriviaquiz.ui.quiz.other
 
 import android.content.Intent
 import android.os.Bundle
@@ -34,10 +34,11 @@ import com.rudyrachman16.back_end.utils.SaveAnswer
 import com.rudyrachman16.dailytriviaquiz.ViewModelFactory
 import com.rudyrachman16.dailytriviaquiz.tools.ErrorMessage
 import com.rudyrachman16.dailytriviaquiz.tools.Loading
+import com.rudyrachman16.dailytriviaquiz.ui.Toolbar
 import com.rudyrachman16.dailytriviaquiz.ui.quiz.normal.NormalQuizViewModel
-import com.rudyrachman16.dailytriviaquiz.ui.quiz.normal.ui.QuizActivity
-import com.rudyrachman16.dailytriviaquiz.ui.quiz.normal.ui.theme.DailyTriviaQuizTheme
-import com.rudyrachman16.dailytriviaquiz.ui.quiz.normal.ui.theme.Purple700
+import com.rudyrachman16.dailytriviaquiz.ui.quiz.normal.QuizActivity
+import com.rudyrachman16.dailytriviaquiz.ui.theme.DailyTriviaQuizTheme
+import com.rudyrachman16.dailytriviaquiz.ui.theme.Purple700
 
 @ExperimentalAnimationApi
 @ExperimentalFoundationApi
@@ -122,7 +123,7 @@ fun ItemQuiz(quiz: Quiz, number: Int, answer: String, click: (Int) -> Unit) {
                 .border(1.dp, Purple700)
                 .size(60.dp)
                 .clickable { click(number - 1) },
-            contentColor = backgroundColor
+            backgroundColor = backgroundColor
         ) {
             Column(
                 horizontalAlignment = Alignment.CenterHorizontally,

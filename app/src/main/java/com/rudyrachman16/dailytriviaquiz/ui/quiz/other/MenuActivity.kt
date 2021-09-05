@@ -1,4 +1,4 @@
-package com.rudyrachman16.dailytriviaquiz.ui
+package com.rudyrachman16.dailytriviaquiz.ui.quiz.other
 
 import android.content.Intent
 import android.os.Bundle
@@ -21,12 +21,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.rudyrachman16.dailytriviaquiz.R
-import com.rudyrachman16.dailytriviaquiz.ui.quiz.normal.ui.QuizActivity
+import com.rudyrachman16.dailytriviaquiz.ui.Toolbar
+import com.rudyrachman16.dailytriviaquiz.ui.quiz.normal.QuizActivity
 import com.rudyrachman16.dailytriviaquiz.ui.theme.DailyTriviaQuizTheme
 
 @ExperimentalFoundationApi
-class MainActivity : ComponentActivity() {
-    @OptIn(ExperimentalAnimationApi::class)
+@ExperimentalAnimationApi
+class MenuActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -40,7 +41,7 @@ class MainActivity : ComponentActivity() {
 //                        scope.launch {
 //                            scaffoldState.snackbarHostState.showSnackbar("WAW")
 //                        }  // Snackbar
-                        startActivity(Intent(this@MainActivity, QuizActivity::class.java))
+                        startActivity(Intent(this@MenuActivity, QuizActivity::class.java))
                     }
                 }
             }
@@ -67,7 +68,7 @@ fun MainMenu(goToQuiz: () -> Unit) {
 
 @Preview(showBackground = true)
 @Composable
-fun DefaultPreview() {
+fun DefaultMenuPreview() {
     DailyTriviaQuizTheme {
         Scaffold(
             topBar = {

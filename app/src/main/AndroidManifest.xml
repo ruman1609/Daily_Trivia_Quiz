@@ -11,31 +11,30 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DailyTriviaQuiz">
+        android:theme="@style/Theme.DailyTriviaQuiz.NoActionBar">
         <activity
-            android:name=".ui.ResultActivity"
-            android:exported="true"
-            android:theme="@style/Theme.DailyTriviaQuiz.NoActionBar" />
-        <activity
-            android:name=".ui.ListQuizActivity"
-            android:exported="true"
-            android:theme="@style/Theme.DailyTriviaQuiz.NoActionBar" />
-        <activity
-            android:name=".ui.quiz.normal.ui.QuizActivity"
-            android:exported="true"
-            android:label="@string/title_activity_quiz"
-            android:theme="@style/Theme.DailyTriviaQuiz.NoActionBar" />
-        <activity
-            android:name=".ui.MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.DailyTriviaQuiz.NoActionBar">
+            android:name=".ui.SplashActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.quiz.other.ResultActivity"
+            android:exported="true"
+            android:theme="@style/Theme.DailyTriviaQuiz.NoActionBar" />
+        <activity
+            android:name=".ui.quiz.other.ListQuizActivity"
+            android:exported="true"
+            android:theme="@style/Theme.DailyTriviaQuiz.NoActionBar" />
+        <activity
+            android:name=".ui.quiz.normal.QuizActivity"
+            android:exported="true"
+            android:label="@string/title_activity_quiz"
+            android:theme="@style/Theme.DailyTriviaQuiz.NoActionBar" />
+        <activity android:name=".ui.quiz.other.MenuActivity" />
     </application>
 
 </manifest>

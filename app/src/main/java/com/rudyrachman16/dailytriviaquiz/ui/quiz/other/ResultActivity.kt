@@ -1,4 +1,4 @@
-package com.rudyrachman16.dailytriviaquiz.ui
+package com.rudyrachman16.dailytriviaquiz.ui.quiz.other
 
 import android.os.Bundle
 import androidx.activity.compose.setContent
@@ -23,8 +23,9 @@ import com.rudyrachman16.back_end.utils.SaveAnswer
 import com.rudyrachman16.dailytriviaquiz.ViewModelFactory
 import com.rudyrachman16.dailytriviaquiz.tools.ErrorMessage
 import com.rudyrachman16.dailytriviaquiz.tools.Loading
+import com.rudyrachman16.dailytriviaquiz.ui.Toolbar
 import com.rudyrachman16.dailytriviaquiz.ui.quiz.normal.NormalQuizViewModel
-import com.rudyrachman16.dailytriviaquiz.ui.quiz.normal.ui.theme.DailyTriviaQuizTheme
+import com.rudyrachman16.dailytriviaquiz.ui.theme.DailyTriviaQuizTheme
 import kotlinx.coroutines.delay
 
 @ExperimentalAnimationApi
