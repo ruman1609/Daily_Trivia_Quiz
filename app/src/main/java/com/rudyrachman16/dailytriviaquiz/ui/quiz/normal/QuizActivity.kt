@@ -288,8 +288,11 @@ fun OptionBoolean(answer: Boolean, choice: MutableState<String>, answerClick: (S
     )
     Column(
         modifier = Modifier
-            .offset(64.dp, 10.dp)
             .zIndex(1f)
+            .fillMaxWidth()
+            .padding(0.dp, 8.dp, 0.dp, 0.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
     ) {
         Box(
             modifier = Modifier

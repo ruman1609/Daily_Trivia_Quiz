@@ -2,16 +2,21 @@ package com.rudyrachman16.dailytriviaquiz.ui
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.animation.OvershootInterpolator
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.animation.ExperimentalAnimationApi
+import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.scale
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
@@ -45,6 +50,19 @@ fun SplashScreen(goToMenu: () -> Unit) {
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize()
     ) {
+        val scale = remember {
+            Animatable(0f)
+        }
+        LaunchedEffect(key1 = true) {
+            scale.animateTo(
+                targetValue = 1f,
+                animationSpec = tween(durationMillis = 500, easing = {
+                    OvershootInterpolator(2f).getInterpolation(it)
+                })
+            )
+            delay(2000)
+            goToMenu()
+        }
         Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
             Image(
                 painter = painterResource(id = R.drawable.bg),
@@ -55,12 +73,10 @@ fun SplashScreen(goToMenu: () -> Unit) {
             Image(
                 painter = painterResource(R.drawable.logo),
                 contentDescription = "Logo",
-                modifier = Modifier.size(500.dp)
+                modifier = Modifier
+                    .size(350.dp)
+                    .scale(scale.value)
             )
-        }
-        LaunchedEffect(key1 = true) {
-            delay(1500)
-            goToMenu()
         }
     }
 }

@@ -1,19 +1,24 @@
-# Daily Trivia Quiz
+# Daily Trivia Quiz ![App Logo](/snapshots/Logo.png) ![App Logo](https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png)
 
 [![ruman1609](https://circleci.com/gh/ruman1609/Daily_Trivia_Quiz.svg?style=svg)](https://circleci.com/gh/ruman1609/Daily_Trivia_Quiz)
 
-This is my first simple jetpack compose application, but still using many activity (still under
-development)
+This is my first simple [Jetpack Compose](https://developer.android.com/jetpack/compose)
+application, using MVVM Architecture
 
-for the next development I hope, I can create it based on navigation to reduce using activity, and
-also implement Dependency Injection (maybe using [Koin](https://insert-koin.io/))
+## Next Development
 
-Feature I use:
+For the next development I hope:
+
+1. I can implement Dependency Injection (maybe using [Koin](https://insert-koin.io/))
+2. Add more quiz type (challenge quiz like [Quizizz](https://quizizz.com/)
+
+## Feature I use:
 
 1. Kotlin Flow
 2. Gson for parsing Retrofit and Shared Preferences
 3. Retrofit
-4. *JETPACK COMPOSE*
+4. Live Data
+5. *JETPACK COMPOSE*
 
 For the API, I got the API from [here](https://opentdb.com/api_config.php)
 
