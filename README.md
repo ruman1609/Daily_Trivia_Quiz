@@ -20,7 +20,9 @@ For the next development I hope:
 4. Live Data
 5. **JETPACK COMPOSE**
 
-For the API, I got the API from [here](https://opentdb.com/api_config.php)
+## API Source
+
+I got the API from [Open Trivia Database](https://opentdb.com/api_config.php)
 
 ## Screenshots
 
