@@ -10,7 +10,7 @@ application, using MVVM Architecture
 For the next development I hope:
 
 1. I can implement Dependency Injection (maybe using [Koin](https://insert-koin.io/))
-2. Add more quiz type (challenge quiz like [Quizizz](https://quizizz.com/)
+2. Add more quiz type (challenge quiz like [Quizizz](https://quizizz.com/))
 
 ## Feature I use:
 
