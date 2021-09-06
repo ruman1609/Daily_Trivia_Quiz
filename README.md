@@ -1,4 +1,4 @@
-# Daily Trivia Quiz <img src="/snapshots/logo.png" alt="Application Logo" width="50"> <img src="https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png" alt="Jetpack Compose Logo" width="50">
+# Daily Trivia Quiz <img src="/snapshots/logo.png" alt="Application Logo" width="100"> <img src="https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png" alt="Jetpack Compose Logo" width="100">
 
 [![ruman1609](https://circleci.com/gh/ruman1609/Daily_Trivia_Quiz.svg?style=svg)](https://circleci.com/gh/ruman1609/Daily_Trivia_Quiz)
 
