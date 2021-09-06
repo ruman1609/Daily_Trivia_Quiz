@@ -18,7 +18,7 @@ For the next development I hope:
 2. Gson for parsing Retrofit and Shared Preferences
 3. Retrofit
 4. Live Data
-5. *JETPACK COMPOSE*
+5. **JETPACK COMPOSE**
 
 For the API, I got the API from [here](https://opentdb.com/api_config.php)
 
