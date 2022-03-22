@@ -2,8 +2,7 @@
 
 # Daily Trivia Quiz [![ruman1609](https://circleci.com/gh/ruman1609/Daily_Trivia_Quiz.svg?style=svg)](https://circleci.com/gh/ruman1609/Daily_Trivia_Quiz)
 
-This is my first simple [Jetpack Compose](https://developer.android.com/jetpack/compose)
-application, using MVVM Architecture
+This is my first simple [Jetpack Compose](https://developer.android.com/jetpack/compose) application, using MVVM Architecture
 
 ## Next Development
 
